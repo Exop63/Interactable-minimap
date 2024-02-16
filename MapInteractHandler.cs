@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(RawImage))]
-public class TestRenderTexture : MonoBehaviour, IPointerClickHandler
+public class MapInteractHandler : MonoBehaviour, IPointerClickHandler
 {
     [SerializeField] private Camera miniMapCamera;
     public LayerMask hitLayer;
